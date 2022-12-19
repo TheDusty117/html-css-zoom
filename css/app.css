@@ -66,11 +66,18 @@ footer{
 /***************** FOOTER SECTION *******************/
 
 
-/* reset button */
+/* reset styles */
 
 ul
 li {
   list-style: none;
+}
+
+button{
+  background: none;
+  color: white;
+  border: none;
+  padding: 10px;
 }
 
 /* fine reset */
@@ -88,7 +95,13 @@ ul {
   display: flex;
 }
 
+.icon{
+  font-size: 30px;
+}
 
+.button-name{
+  font-size: 18px;
+}
 
 
 

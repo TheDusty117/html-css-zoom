@@ -63,11 +63,30 @@ footer{
 }
 
 
+/***************** FOOTER SECTION *******************/
 
 
+/* reset button */
 
+ul
+li {
+  list-style: none;
+}
 
+/* fine reset */
 
+.container-footer{
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+ul {
+  display: flex;
+}
 
 
 

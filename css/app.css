@@ -37,12 +37,27 @@ footer{
 
 .row{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
 }
 
 .mountain-img{
   width: 250px;
   height: 150px;
+}
+
+/***** POSITIONING MICROPHONE WITH USERNAME ***/
+
+.image-col{
+  position: relative;
+}
+
+.microphone-username{
+  color: white;
+  background-color: rgba(128, 128, 128, 0.5);
+  position: absolute;
+  z-index: 10;
+  right: 156px;
+  top: 131px;
 }
 
 

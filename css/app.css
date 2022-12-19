@@ -14,35 +14,42 @@ menu {
 	list-style: none;
 }
 
+/* SETUP VIEWPORT MAIN AND FOOTER */
+
 main{
   width: 100vw;
   height: 90vh;
   background-color: black;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
   width: 100vw;
   height: 10vh;
   background-color: grey;
 }
+
+/**************** MAIN SECTION **************/
+
+.container{
+  width: 1817px;
+  padding: 80px 90px 30px 90px;
+}
+
+.col
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

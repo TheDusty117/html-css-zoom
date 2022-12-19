@@ -64,20 +64,22 @@ footer{
 }
 
 .container{
+  height: 90vh;
   /* width: 1817px; */
-  padding: 80px 90px 30px 90px;
+  padding: 80px 90px 5px 90px;
+  
   
 }
 
 .row{
   display: flex;
   justify-content: space-between;
+  row-gap: x;
   flex-wrap: wrap; /* uso il wrap per far andare a capo i vari elementi */
 }
 
 .mountain-img{
-  width: 250px;
-  height: 150px;
+  width: 12vw;
 }
 
 /***** POSITIONING MICROPHONE WITH USERNAME ***/

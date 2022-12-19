@@ -31,12 +31,19 @@ footer{
 /**************** MAIN SECTION **************/
 
 .container{
-  width: 1817px;
+  /* width: 1817px; */
   padding: 80px 90px 30px 90px;
 }
 
-.col
+.row{
+  display: flex;
+  flex-direction: column;
+}
 
+.mountain-img{
+  width: 250px;
+  height: 150px;
+}
 
 
 

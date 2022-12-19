@@ -8,10 +8,22 @@ img {
 	max-width: 100%;
 }
 
+
+/* reset styles */
+
+
+
 ul,
 ol,
 menu {
 	list-style: none;
+}
+
+button{
+  background: none;
+  color: white;
+  border: none;
+  padding: 10px;
 }
 
 /* SETUP VIEWPORT MAIN AND FOOTER */
@@ -29,6 +41,25 @@ footer{
 }
 
 /**************** MAIN SECTION **************/
+
+
+.up-right-button1{
+  color: white;
+  background-color: rgba(128, 128, 128, 0.5);
+  position: absolute;
+  right: 50px;
+  top: 7px;
+  border-radius: 10px;
+}
+
+.up-right-button2{
+  color: white;
+  background-color: rgba(128, 128, 128, 0.5);
+  position: absolute;
+  right: 8px;
+  top: 7px;
+  border-radius: 10px;
+}
 
 .container{
   /* width: 1817px; */
@@ -66,19 +97,6 @@ footer{
 /***************** FOOTER SECTION *******************/
 
 
-/* reset styles */
-
-ul
-li {
-  list-style: none;
-}
-
-button{
-  background: none;
-  color: white;
-  border: none;
-  padding: 10px;
-}
 
 /* fine reset */
 

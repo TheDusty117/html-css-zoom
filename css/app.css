@@ -47,9 +47,10 @@ footer{
   color: white;
   background-color: rgba(128, 128, 128, 0.5);
   position: absolute;
-  right: 50px;
+  right: 40px;
   top: 7px;
-  border-radius: 10px;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .up-right-button2{
@@ -58,7 +59,8 @@ footer{
   position: absolute;
   right: 8px;
   top: 7px;
-  border-radius: 10px;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .container{

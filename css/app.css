@@ -74,8 +74,12 @@ footer{
 .row{
   display: flex;
   justify-content: space-between;
+  align-content: center;
   row-gap: x;
+  justify-content: center;
+  column-gap: 5px;
   flex-wrap: wrap; /* uso il wrap per far andare a capo i vari elementi */
+  row-gap: 10px;
 }
 
 .mountain-img{
